@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const ShopCategory= () => {
+export default function ShopCategory () {
   return (
     <div>
-        
+        ShopCategory
     </div>
   )
 }
