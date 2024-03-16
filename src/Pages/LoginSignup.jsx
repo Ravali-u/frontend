@@ -1,7 +1,16 @@
 import React from 'react'
 
-export default function LoginSignup() {
+const LoginSignup=() =>{
   return (
-    <div>LoginSignup</div>
+    <div className='loginsignup'>
+    <div className='loginsignup-container'>
+      <h1>Sign Up</h1>
+      <div className="loginsignup-fields">
+        <input type="text" placeholder='Your Name'/>
+        <input type="email" placeholder=''/>
+      </div>
+    </div>
+    </div>
   )
-}
+  }
+export default LoginSignup
