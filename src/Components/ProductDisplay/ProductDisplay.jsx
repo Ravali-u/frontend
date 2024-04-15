@@ -17,7 +17,7 @@ const ProductDisplay= (props)=> {
           <img className='productdisplay-main-img' src={product.image} alt=""/>
         </div>
       </div>
-      <div className="productdisplayy-right">
+      <div className="productdisplay-right">
         <h1>{product.name}</h1>
         <div className="productdisplay-right-star">
           <img src={star_icon} alt=""/>
@@ -50,11 +50,8 @@ const ProductDisplay= (props)=> {
           <button>ADD TO CART</button>
           <p className='productdisplay-right-category'><span>Category:</span>Women, T-Shirt, Crop Top</p>
           <p className='productdisplay-right-category'><span> Tags:</span>Modern, Latest</p>
-        </div>
+        </div>  
+      </div>
     </div>
-    <button>ADD TO CART</button>
-    <p className='productdisplay-right-category'
-    </div>
-  )
-}
+   ) }
 export default ProductDisplay
