@@ -46,7 +46,7 @@ const ShopContextProvider=(props) =>{
         {
           totalItem+=cartItems[item]
         }
-        return totalItem
+        return totalItem;
       }
     }
 
